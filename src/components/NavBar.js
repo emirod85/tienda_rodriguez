@@ -1,4 +1,5 @@
 import React from 'react';
+import CartWidget from './CartWidget';
 // import 'bootstrap/dist/css/bootstrap.min.css';
 import {Navbar,NavDropdown,Nav,Form,FormControl,Button} from 'react-bootstrap';
 
@@ -6,7 +7,7 @@ const NavBar = () => {
     return (
     
              
-      <header className="App-header">
+      <header  class="pe-5 ps-5" className="App-header">
       <Navbar  bg="light" expand="lg">
   <Navbar.Brand href="#">TiendaEmiRodr</Navbar.Brand>
   <Navbar.Toggle aria-controls="navbarScroll" />
@@ -38,6 +39,7 @@ const NavBar = () => {
       <Button variant="outline-success">Search</Button>
     </Form>
   </Navbar.Collapse>
+  <CartWidget />
 </Navbar>
       </header>
         
