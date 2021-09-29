@@ -1,14 +1,16 @@
 
 import './App.css';
 import NavBar from './components/NavBar';
+import ItemCount from './components/ItemCount';
 import ItemListContainer from './components/ItemListContainer'
 
 function App() {
+  
   return (
     <div>
-
-    <NavBar/>
-    <ItemListContainer/>
+      <NavBar/>
+      <ItemListContainer/>
+      <ItemCount/>
     </div>
 
      
@@ -17,6 +19,9 @@ function App() {
 }
 
 export default App;
+
+
+
 
 
 // import React, { Component, useState } from 'react';

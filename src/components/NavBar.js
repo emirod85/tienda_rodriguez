@@ -7,8 +7,8 @@ const NavBar = () => {
     return (
     
              
-      <header  class="pe-5 ps-5" className="App-header">
-      <Navbar  bg="light" expand="lg">
+      <header className="App-header">
+      <Navbar  className="pe-5 ps-5" bg="light" expand="lg">
   <Navbar.Brand href="#">TiendaEmiRodr</Navbar.Brand>
   <Navbar.Toggle aria-controls="navbarScroll" />
   <Navbar.Collapse id="navbarScroll">
