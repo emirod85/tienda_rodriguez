@@ -7,11 +7,16 @@ import ItemListContainer from './components/ItemListContainer'
 function App() {
   
   return (
-    <div>
-      <NavBar/>
-      <ItemListContainer/>
-      <ItemCount/>
-    </div>
+    <>
+      <header>
+        <NavBar/>
+      </header>
+
+      <container>
+        <ItemListContainer/>
+      </container>
+      
+    </>
 
      
    
