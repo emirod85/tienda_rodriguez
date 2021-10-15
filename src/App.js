@@ -1,88 +1,22 @@
+import React from "react";
+import "./App.css";
+import NavBar from "./components/NavBar";
+import ItemListContainer from "./components/ItemListContainer";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
-import './App.css';
-import NavBar from './components/NavBar';
-import ItemCount from './components/ItemCount';
-import ItemListContainer from './components/ItemListContainer'
-
-function App() {
-  
+const App = () => {
   return (
-    <>
-      <header>
-        <NavBar/>
-      </header>
+    <div>
+      <Router>
+        <NavBar />
 
-      <container>
-        <ItemListContainer/>
-      </container>
-      
-    </>
-
-     
-   
+        <Switch>
+          <Route exact path="/" component={ItemListContainer} />
+          <Route path="/categoria/:category" component={ItemListContainer} />
+        </Switch>
+      </Router>
+    </div>
   );
-}
+};
 
 export default App;
-
-
-
-
-
-// import React, { Component, useState } from 'react';
-// import './App.css';
-
-// class App extends Component {
-//   constructor() {
-//     super();
-//     /*
-//     Estado
-//     Basicamente inicializar informacion de mi componente
-//     */
-//     this.state = {
-//       name: "Gustavo Adolfo",
-//       age: 32,
-//       hobbies: ["play soccer", "play chess", "dance"]
-//     }
-//   }
-
-//   render() {
-//     return <MyFirstComponent name={this.state.name} age={this.state.age} hobbies={this.state.hobbies} component={newComponent}/>
-//   }
-// }
-
-// const App = () => {
-//   const [name, setName] = useState("Gustavo Adolfo");
-//   const [age, setAge] = useState(32);
-//   const [hobbies, setHobbies] = useState(["play soccer", "play chess", "dance"]);
-
-//   return <MyFirstComponent name={name} age={age} hobbies={hobbies} component={newComponent}/>
-// }
-
-
-// const MyFirstComponent = (props) => {
-//   return (
-//     <h1>{props.name} {props.age} {props.hobbies} {props.component({contentButton: 'Hacer click'})}</h1>
-//   )
-// }
-
-
-// const newComponent = ({ contentButton }) => {
-//   function callAlert() {
-//     alert("Hello World!");
-//   }
-//   return <button type="button" onClick={callAlert}>{contentButton}</button>
-// }
-
-// export default App;
-
-
-
-// const incrementar = () => {
-//   if (contador < stock) {
-//       setContador(contador + 1)
-//   }
-// }  <button onClick={incrementar}> + </button>
-
-
-

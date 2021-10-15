@@ -3,6 +3,7 @@
     "id": 10001,
     "title": "Musicman fretless",
     "description": "Description 1",
+    "category": "Bass",
     "price": 1000,
     "pictureUrl": "https://soundsmarket.com/blog/wp-content/uploads/2019/02/Music_Man_StingRay_fretless_bass_body_angled_1-1024x577.jpg",
     "stock": 10
@@ -11,6 +12,7 @@
     "id": 10002,
     "title": "Gibson Les Paul",
     "description": "Description 2", 
+    "category": "Electric",
     "price": 2000,
     "pictureUrl": "https://www.latercera.com/resizer/U27iqjUgx6aX9HNkVzjaBH1_66I=/800x0/smart/arc-anglerfish-arc2-prod-copesa.s3.amazonaws.com/public/ER2AFTXBM5H5PHOOCSCYNPILQA.jpg",
     "stock": 20
@@ -19,6 +21,7 @@
     "id": 10003,
     "title": "Fender Jazz Bass",
     "description": "Description 3",
+    "category": "Bass",
     "price": 3000,
     "pictureUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwQsUtwR6sjtS2KmPC6GxoeITmsNKjXQ54Yw&usqp=CAU",
     "stock": 30
@@ -27,6 +30,7 @@
     "id": 10004,
     "title": "Bajo electrico Yamaha 5 cuerdas",
     "description": "Description 4",
+    "category": "Bass",
     "price": 4000,
     "pictureUrl": "https://images.promusic.cl/uploads/2020-11/trbx3052.jpg520x520.r.jpg",
     "stock": 40
@@ -35,6 +39,7 @@
     "id": 10005,
     "title": "Martin D-42",
     "description": "Description 5",
+    "category": "Acoustic",
     "price": 5000,
     "pictureUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdcEMKBLL67guUJov_3ZXBuXvzO6RnhY8p6tSM36vbKtfmQfd8&usqp=CAc",
     "stock": 50
@@ -43,6 +48,7 @@
     "id": 10006,
     "title": "Clasica amplificada",
     "description": "Description 6",
+    "category": "Clasic",
     "price": 6000,
     "pictureUrl": "https://i0.wp.com/100lecciones.org/wp-content/uploads/Diferencias-entre-guitarra-ac%C3%BAstica-y-guitarra-cl%C3%A1sica-2.jpg?fit=675%2C490&ssl=1",
     "stock": 60
